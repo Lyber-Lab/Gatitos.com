@@ -1,0 +1,78 @@
+.gif{
+    margin-top: -55px;
+    width: 100vw;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+}
+
+.gif img{
+    width: auto;
+    height: 100px;
+    position: absolute;
+    animation: moveRightLeft 10s linear infinite;
+}
+@keyframes moveRightLeft{
+    0% {right: 100vw;}
+    100% {right: -100vw;}
+}
+
+h2{
+    margin-top: -2px;
+    text-align: center;
+    color: white;
+    text-shadow: 4px 4px 10px rgb(0, 0, 0);
+}
+
+.p-content{
+    text-align: center;
+    font-size: 22px;
+    color: white;
+    text-shadow: 4px 4px 10px rgb(0, 0, 0);
+
+}
+.container{
+    border-radius: 10px;
+    border: solid black 2px;
+    box-shadow: 1px 1px 15px rgb(255, 255, 255);
+    background-color: gray;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    max-width: 1200px;
+    margin: 20px auto;
+    max-height: 700px ;
+}
+
+.parrafos{
+    background-color: rgb(73, 85, 158);
+    margin: 8px;
+    padding: 20px;
+    border: solid black 2px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.container .parrafos h3{
+    margin-top: -10px;
+    font-size: 2em;
+    text-shadow: 4px 4px 10px rgb(0, 0, 0);
+}
+
+.container .parrafos p{
+    margin-top: -25px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.container .parrafos img{
+    width: 150px;
+    height: 150px;
+    border: solid black 5px;
+    box-shadow: 1px 1px 15px rgb(255, 255, 255);
+    border-radius: 10px;
+}

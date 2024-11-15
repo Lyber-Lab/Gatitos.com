@@ -1,0 +1,156 @@
+@font-face{ 
+    font-family: mypta;
+    src: url(Namaku.ttf);
+}
+
+html{
+    background-color: rgb(99, 91, 91);
+    padding: 10px;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(148, 142, 142);
+}
+::-webkit-scrollbar-thumb{
+    background-color: grey;
+    border-radius: 12px;
+    border: 3px solid black;
+}
+
+::-webkit-scrollbar-corner{
+    background-color: rgb(148, 142, 142);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: white; 
+}
+
+h1 {
+    text-shadow: 8px 8px black;
+}
+
+header{
+    display: flex;
+    font-family: mypta;
+    color: white;
+    background-color: gray;
+    font-size: 2em;
+    align-items: center;
+    border-radius: 15px;
+    justify-content: center;
+    border: solid black 2px;
+    box-shadow: 1px 1px 15px rgb(255, 255, 255);
+}
+
+header img{
+    height: 200px;
+    width: 200px;
+}
+
+.patainici{
+    height: 100px;
+    width: 100px;
+}
+
+nav{
+    font-family: Verdana;
+    font-size: 16px;
+    padding: 15px;
+    margin-bottom: 50px;
+    margin-top: -15px;
+    margin-left: 30px;
+}
+
+a:hover{
+    color: white;
+    background-color: rgb(212, 218, 219);
+    color: black;
+    border-radius: 10px;
+}
+
+nav a{
+    background-color: grey;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    margin-right: 25px;
+    padding: 10px;
+    border: solid black 2px;
+    box-shadow: 1px 1px 15px rgb(255, 255, 255);
+}
+
+footer{
+    background-color: grey;
+    border-radius: 15px;
+    border: solid black 2px;
+    box-shadow: 1px 1px 15px rgb(255, 255, 255);
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.info-gatitos, .autores{
+    width: 45%;
+}
+
+.info-gatitos, .autores h4, .autores h5{
+    margin: 0 0 10px;
+}
+
+.autores h5{
+    margin-top: 2px;
+}
+
+.autores img{
+    width: 30px;
+    height: 30px;
+    margin-right: -5px;
+    margin-left: -5px;
+    margin-bottom: -5px;
+}
+
+.info-gatitos img{
+    width: 30px;
+    height: 30px;
+    margin: 0;
+}
+
+.autores a, .redes-social a {
+    text-decoration: none;
+    margin-right: 10px;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 5px 2px rgba(146, 1, 243, 0.5); 
+    transition: box-shadow 0.3s ease;
+}
+
+.autores a:hover, .redes-social a:hover {
+    box-shadow: 4px 4px 10px rgba(146, 1, 243, 0.7);
+}
+
+.info-gatitos .redes-social {
+    margin-top: 10px;
+}
+
+.info-gatitos p {
+    color: #ffffff;
+    margin-bottom: -10px;
+}
+
+footer a img {
+    transition: transform 0.3s;
+}
+
+footer a:hover img {
+    transform: scale(1.1);
+}
+
